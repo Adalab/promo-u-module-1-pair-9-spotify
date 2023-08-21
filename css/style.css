@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  background-color: black;
+}
+.logo-spotify {
+  margin: 10px;
+  width: 100px;
+}
+.menu-icon {
+  margin: 10px;
+  width: 25px;
+  float: right;
+}
+.hero {
+  background-color: #529cf1;
+  /* background-image: url(../images/premium_dancer.png); */
+  /* background-size: cover; */
+  height: 40%;
+  padding: 1px;
+}
+.title {
+  /* border: 2px solid red; */
+  font-size: 45px;
+  padding: 15px;
+  margin-top: 30px;
+  color: white;
+}
+.subtitle {
+  /* border: 2px solid red; */
+  font-weight: bold;
+  color: white;
+  font-size: 23px;
+  padding: 15px;
+}
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  background-color: #26b758;
+  text-decoration: none;
+  padding: 10px 130px;
+  border-radius: 50px;
+  margin: 10px;
+}
+.terms {
+  color: white;
+  font-size: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+
+}
+
+/* EJERCICIO EN CLASE */
+
+/* .logo {
+  width: 120px;
+}
+.menu li {
+  display: inline;
+}
+.link {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+}
+.btn-green {
+  background-color: aqua;
+  color: white;
+}
+.btn-grey {
+  background-color: grey;
+  color: white;
+}
+.hero {
+  height: 500px;
+  background-image: url(../images/Buenas-practicas-para-fomentar-la-igualdad-de-genero-480x320.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+} */
