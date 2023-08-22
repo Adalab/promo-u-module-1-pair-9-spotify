@@ -9,6 +9,8 @@ body {
 }
 .header {
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 .logo-spotify {
   margin: 10px;
@@ -17,20 +19,24 @@ body {
 .menu-icon {
   margin: 10px;
   width: 25px;
-  float: right;
 }
 .hero {
   background-color: #529cf1;
   /* background-image: url(../images/premium_dancer.png); */
   /* background-size: cover; */
-  height: 40%;
+  height: 50vh;
   padding: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
 }
+
 .title {
   /* border: 2px solid red; */
   font-size: 45px;
   padding: 15px;
-  margin-top: 30px;
+  /* margin-top: 100px; */
   color: white;
 }
 .subtitle {
@@ -54,35 +60,96 @@ body {
   color: white;
   font-size: 12px;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 
 }
 
-/* EJERCICIO EN CLASE */
+.benefits {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
 
-/* .logo {
-  width: 120px;
 }
-.menu li {
-  display: inline;
+
+.title2 {
+  text-align: center;
 }
-.link {
-  text-decoration: none;
-  padding: 5px;
-  color: black;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+ 
 }
-.btn-green {
-  background-color: aqua;
-  color: white;
+
+.benefit {
+  display:flex;
+  align-items: center;
+  padding: 15px;
+  
 }
-.btn-grey {
-  background-color: grey;
-  color: white;
+
+.benefit img {
+  width: 70px;
 }
-.hero {
-  height: 500px;
-  background-image: url(../images/Buenas-practicas-para-fomentar-la-igualdad-de-genero-480x320.jpg);
-  background-size: cover;
-  background-position: center;
-  color: white;
-} */
+
+.benefit-text {
+  width: 175px;
+
+  font-size: 10px;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  padding: 30px 30px;
+  align-items: end;
+  font-size: 10px;
+
+}
+.footer-nav-container {
+  display:flex;
+  gap: 10px;
+  list-style: none;
+  width: 50vw;
+  flex-wrap: wrap;
+
+
+}
+
+.link-footer {
+text-decoration: none;
+color: white;
+display: flex;
+
+}
+
+.info {
+  width: 141px;
+}
+
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+
+
+}
+
+.spain-flag {
+  width: 20px;
+  margin: 0px 0px 0px 5px;
+}
+
+.footer-copy-spain {
+  display: flex;
+  align-items: center;
+}
+
+
+
