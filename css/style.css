@@ -13,6 +13,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 100;
+  align-items: center;
 }
 .main {
   padding-top: 50px;
@@ -22,17 +23,21 @@ body {
   width: 100px;
 }
 .menu-icon {
-  margin: 10px;
+  margin-right: 10px;
   width: 25px;
 }
+
+.nav {
+  display:none;
+}
+
 .hero {
   background-color: #529cf1;
-  background-image: url(../images/premium_dancer.png);
+  /* background-image: url(../images/premium_dancer.png);
   background-size: contain;
-  /* background-size: cover; */
   background-repeat: no-repeat;
-  background-position: right;
-  height: 50vh;
+  background-position: right; */
+  height: 25vh;
   padding: 1px;
   display: flex;
   flex-direction: column;
@@ -135,4 +140,34 @@ body {
 .footer-copy-spain {
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    margin-right: 10px;
+
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: white;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .hero {
+    background-image: url(../images/premium_dancer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 }
