@@ -1,0 +1,37 @@
+Domingo 27 ago
+
+cambiar en .hero { height: 50vh; } o se va a la *** el texto al haber puesto fijo el header
+
+
+
+he añadido en:
+
+.title2 {
+  font-weight: bold;
+}
+.benefit {
+  gap: 10px;
+}
+
+
+- media query 768:
+.nav a { 
+  font-weight:bold;
+  padding: 0 10px; 
+}
+.title {
+  font-size: 60px;
+}
+.btn {
+  max-width: 200px;
+}
+.hero {			 CAMBIADO
+  background-size: 310px;
+}
+
+
+- en el hero le hemos metido padding de 15px a cada elemento, sugiero hacer un page-wrapper
+
+- meter .gitignore (el del adalab kit starter mismo) para ocultar carpeta .vscode
+
+hay muchas mierdecitas que cambian, ya me he aburrido XD

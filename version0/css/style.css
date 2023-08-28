@@ -37,7 +37,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right; */
-  height: 25vh;
+  height: 50vh;
   padding: 1px;
   display: flex;
   flex-direction: column;
@@ -83,6 +83,7 @@ body {
 }
 .title2 {
   text-align: center;
+  font-weight: bold;
 }
 .container {
   display: flex;
@@ -94,13 +95,13 @@ body {
   display: flex;
   align-items: center;
   padding: 15px;
+  gap: 10px;
 }
 .benefit img {
   width: 70px;
 }
 .benefit-text {
   width: 175px;
-
   font-size: 10px;
 }
 .footer {
@@ -149,9 +150,7 @@ body {
   .nav {
     display: flex;
     margin-right: 10px;
-
   }
-
   .nav ul {
     display: flex;
     gap: 10px;
@@ -162,12 +161,34 @@ body {
   .nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;;
   }
 
   .hero {
     background-image: url(../images/premium_dancer.png);
     background-size: contain;
+    background-size: 310px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .btn {
+    max-width: 200px;
+  }
+  .terms {
+    max-width: 85%;
+    font-size: 12px; /* ?????? */
+  }
+  .container {
+    padding: 15px 0;
+  }
+  .title2 {
+    font-size: 45px;
+  }
+  .benefit-text {
+    width: 225px;
   }
 }
