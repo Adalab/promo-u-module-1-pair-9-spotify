@@ -1,0 +1,60 @@
+.hero {
+    background-color: #529cf1;
+    height: 50vh;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    @media (min-width: 768px) {
+      background-image: url(../images/premium_dancer.png);
+      background-size: contain;
+      background-size: 310px;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+  }
+  .title {
+    font-size: 45px;
+    padding: 15px;
+    color: $color-secondary-font;
+
+    @media (min-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    }
+  }
+  .subtitle {
+    font-weight: bold;
+    color: $color-secondary-font;
+    font-size: 23px;
+    padding: 15px;
+  }
+  .btn {
+    text-transform: uppercase;
+    color: $color-secondary-font;
+    background-color: #26b758;
+    text-decoration: none;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    text-align: center;
+    
+    @media (min-width: 768px) {
+      max-width: 200px;
+    }
+    }
+  
+  .terms {
+    color: $color-secondary-font;
+    font-size: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+    
+    @media (min-width: 768px) {
+      max-width: 85%;
+      font-size: 12px; 
+    }
+  }

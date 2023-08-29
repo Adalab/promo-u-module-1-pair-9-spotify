@@ -1,8 +1,38 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: $background-color-header-footer;
+  display: flex;
+  color: $color-secondary-font;
+  justify-content: space-between;
+  padding: 30px 30px;
+  align-items: end;
+  font-size: 10px;
+}
+.footer-nav-container {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+.link-footer {
+  text-decoration: none;
+  color: $color-secondary-font;
+  display: flex;
+}
+.info {
+  width: 141px;
+}
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+.spain-flag {
+  width: 20px;
+  margin: 0px 0px 0px 5px;
+}
+.footer-copy-spain {
+  display: flex;
+  align-items: center;
 }
