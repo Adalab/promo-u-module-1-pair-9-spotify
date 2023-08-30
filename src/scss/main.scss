@@ -1,9 +1,9 @@
+@import 'core/variables';
 @import 'core/reset';
 body {
   font-family: $font-main;
-  
+}
 @import 'layout/header';
-
 .main {
   padding-top: 50px;
 }
